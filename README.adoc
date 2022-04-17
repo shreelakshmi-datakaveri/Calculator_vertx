@@ -4,6 +4,21 @@ image:https://img.shields.io/badge/vert.x-4.2.7-purple.svg[link="https://vertx.i
 
 This application was generated using http://start.vertx.io
 
+== HTTP GET Requests
+```
+  Only through Postman by supplying input as JSON
+  /add
+  /sub
+  /mul
+  /div
+  
+  Through Browser or Postman by supplying path parameters
+  /add/:num1/:num2
+  /sub/:num1/:num2
+  /mul/:num1/:num2
+  /div/:num1/:num2
+```
+
 == Calculator
 
 image::https://user-images.githubusercontent.com/102594542/163709975-4a538c31-9c4e-4a98-b6f5-08ac1e593144.jpg[]
